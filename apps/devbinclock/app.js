@@ -1,4 +1,4 @@
-//token: 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
+//token: ghp_89QJDS8cuZrH8 XXXXXXX Un3VM7TgmJrd2QwSX0nMV6d
 const full_width = g.getWidth();
 const full_height = g.getHeight();
 
