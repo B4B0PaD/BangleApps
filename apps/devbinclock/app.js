@@ -1,3 +1,4 @@
+//token: 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
 const full_width = g.getWidth();
 const full_height = g.getHeight();
 
