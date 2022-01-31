@@ -1,15 +1,15 @@
 {
-  "id": "devclock",
+  "id": "devbinclock",
   "name": "Best developer binary clock ever",
-  "shortName":"Dev Clock",
+  "shortName":"Dev Binary Clock",
   "version":"1.0.0",
   "description": "Simple binary clock with calendar informations",
-  "icon": "devclock_app.png",
+  "icon": "app.png",
   "tags": "developer, clock, time, binary",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
   "storage": [
-    {"name":"devclock.app.js","url":"app.js"},
-    {"name":"devclock.img","url":"app-icon.js","evaluate":true}
+    {"name":"devbinclock.app.js","url":"app.js"},
+    {"name":"devbinclock.img","url":"app-icon.js","evaluate":true}
   ]
 }
