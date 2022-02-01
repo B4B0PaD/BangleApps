@@ -5,6 +5,7 @@
   "version":"1.0.0",
   "description": "Simple binary clock with calendar informations",
   "icon": "app.png",
+  "type": "clock",
   "tags": "developer, clock, time, binary",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
