@@ -2,7 +2,7 @@
   "id": "devbinclock",
   "name": "B4B0PaD Binary Clock",
   "shortName":"Dev Binary Clock",
-  "version":"1.0.0",
+  "version":"1.0.1",
   "description": "Dev binary clock with calendar informations",
   "icon": "app.png",
   "type": "clock",
