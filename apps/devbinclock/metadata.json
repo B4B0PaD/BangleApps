@@ -3,7 +3,7 @@
   "name": "B4B0PaD Binary Clock",
   "shortName":"Dev Binary Clock",
   "version":"1.0.0",
-  "description": "Terminal binary clock with calendar informations",
+  "description": "Dev binary clock with calendar informations",
   "icon": "app.png",
   "type": "clock",
   "tags": "developer, clock, time, binary",
