@@ -32,6 +32,7 @@ const drawDate = () => {
   let dt = new Date();
 
   let date_string_first = dt.getDate();
+  date_string_first = (date_string_first < 10 ? '0' : '') + date_string_first;
   let date_string_second = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno","Agosto", "Settembre", "Ottobre", "Novembre","Dicembre"][dt.getMonth()] + ' ' + dt.getFullYear();
   let date_string_third = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì","Sabato"][dt.getDay()];
 
