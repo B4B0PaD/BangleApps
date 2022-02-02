@@ -1,0 +1,1 @@
+cd .. && bin/create_apps_json.sh

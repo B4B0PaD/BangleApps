@@ -1,0 +1,18 @@
+{
+  "id": "terminalwatch",
+  "name": "B4B0PaD Terminal Watch",
+  "shortName":"Terminal Watch",
+  "version":"1.0.2",
+  "description": "Developer terminal binary clock with calendar informations",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot_01.png"}],
+  "type": "clock",
+  "tags": "developer, clock, time, binary, watch",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "allow_emulator": true,
+  "storage": [
+    {"name":"terminalwatch.app.js","url":"app.js"},
+    {"name":"terminalwatch.img","url":"app-icon.js","evaluate":true}
+  ]
+}
