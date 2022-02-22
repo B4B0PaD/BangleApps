@@ -104,12 +104,12 @@ const run_crons = () => {
 
   // DATE UPDATE
   setTimeout(
-    () => drawDate() && setInterval(() => drawDate(), 1000 * 60 * 60 * 24),
+    () => {drawDate(); setInterval(() => drawDate(), 1000 * 60 * 60 * 24);},
     midnight
   );
 
   // CLOCK UPDATE
-  setTimeout(() => drawClock() && setInterval(() => drawClock(), 60 * 1000),
+  setTimeout(() => {drawClock(); setInterval(() => drawClock(), 60 * 1000);},
     (60 - (new Date()).getSeconds()) * 1000
   );
 };

@@ -1,0 +1,18 @@
+{
+  "id": "wordwatchita",
+  "name": "B4B0PaD Word Watch ITA",
+  "shortName":"Word Watch ITA",
+  "version":"1.0.8",
+  "description": "Italian Word Watch",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot_01.png"}],
+  "type": "clock",
+  "tags": "word, clock, time, watch",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "allow_emulator": true,
+  "storage": [
+    {"name":"wordwatchita.app.js","url":"app.js"},
+    {"name":"wordwatchita.img","url":"app-icon.js","evaluate":true}
+  ]
+}
